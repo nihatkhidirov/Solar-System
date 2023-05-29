@@ -1,0 +1,228 @@
+html {
+  background-image: url(/img/stars-fantasy-nature-blue-dark-solar-system-powerpoint-background_34d49dbe5e__960_540.webp);
+  background-color: transparent;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.Qalaktika {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 750px;
+}
+.ulduz {
+  display: flex;
+  width: 310px;
+  height: 310px;
+  align-self: center;
+}
+
+.Venera {
+  width: 610px;
+  height: 610px;
+  position: absolute;
+  display: flex;
+  border: 1px solid white;
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.Venera .planet {
+  position: absolute;
+  display: flex;
+  width: 30px;
+  height: 30px;
+  animation: Venera-A 12s linear infinite;
+}
+
+.Merkuri {
+  position: absolute;
+  display: flex;
+  width: 450px;
+  height: 450px;
+  border: 1px solid white;
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.Merkuri .planet {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  animation: Merkuri-A 7.5s linear infinite;
+}
+
+.Mars {
+  position: absolute;
+  width: 900px;
+  height: 900px;
+  border: 1px solid white;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Mars .planet {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  animation: Mars-A 25s linear infinite;
+}
+.Yupiter {
+  position: absolute;
+  width: 1050px;
+  height: 1050px;
+  border: 1px solid white;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Yupiter .planet {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  animation: Yupiter-A 60s linear infinite;
+}
+
+.Yer {
+  position: absolute;
+  width: 750px;
+  height: 750px;
+  border: 1px solid white;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Yer .planet {
+  display: flex;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  animation: Yer-A 20s linear infinite;
+}
+.Satrun {
+  position: absolute;
+  width: 1150px;
+  height: 1150px;
+  border: 1px solid white;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Satrun .planet {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  animation: Satrun-A 75s linear infinite;
+}
+.Uran {
+  position: absolute;
+  width: 1350px;
+  height: 1350px;
+  border: 1px solid rgb(237, 228, 228);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Uran .planet {
+  display: flex;
+  width: 39px;
+  height: 39px;
+  position: absolute;
+  animation: Uran-A 80s linear infinite;
+}
+.Neptun {
+  position: absolute;
+  width: 1500px;
+  height: 1500px;
+  border: 1px solid rgb(243, 227, 227);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Neptun .planet {
+  display: flex;
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  animation: Neptun-A 100s linear infinite;
+}
+
+@keyframes Merkuri-A {
+  0% {
+    transform: rotate(0deg) translate(225px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translate(225px) rotate(360deg);
+  }
+}
+@keyframes Venera-A {
+  0% {
+    transform: rotate(0deg) translate(300px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translate(300px) rotate(360deg);
+  }
+}
+@keyframes Yer-A {
+  0% {
+    transform: rotate(0deg) translate(375px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translate(375px) rotate(360deg);
+  }
+}
+
+@keyframes Neptun-A {
+  0% {
+    transform: rotate(0deg) translate(750px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translate(750px) rotate(360deg);
+  }
+}
+@keyframes Uran-A {
+  0% {
+    transform: rotate(0deg) translate(675px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translate(675px) rotate(360deg);
+  }
+}
+@keyframes Satrun-A {
+  0% {
+    transform: rotate(0deg) translate(600px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translate(600px) rotate(360deg);
+  }
+}
+@keyframes Yupiter-A {
+  0% {
+    transform: rotate(0deg) translate(525px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translate(525px) rotate(360deg);
+  }
+}
+@keyframes Mars-A {
+  0% {
+    transform: rotate(0deg) translate(450px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translate(450px) rotate(360deg);
+  }
+}
